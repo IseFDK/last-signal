@@ -7,7 +7,7 @@ An original illustrated Russian scrollytelling short story by **IseFDK**. One em
 ## Experience
 
 - Native scrolling drives reversible layered motion: train departure, moving landscape, tunnel passage, observatory approach, radio tuning, dome shutters and dawn
-- Three original textured illustration panels, plus original code-drawn SVG train, receiver, ticket, mountains, forest and telescope
+- Three original textured landscape illustration panels with separately composed portrait editions for phones, plus original code-drawn SVG train, receiver, ticket, mountains, forest and telescope
 - Chapter navigation, progress indicator and replay; no scroll interception, autoplay audio, WebGL, runtime libraries or analytics
 - Full equivalent reading edition at `read.html`
 - System reduced-motion support and a persistent “Без движения” mode; enlarged text uses a safe static layout

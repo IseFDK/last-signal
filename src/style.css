@@ -21,3 +21,7 @@ html{scrollbar-gutter:stable}.chapter-menu{overscroll-behavior:contain}
 @media(max-width:600px){.journey-route{min-width:168px;max-width:none}.journey-stop{width:24px;height:40px}.journey-label{max-width:112px;overflow:hidden;text-overflow:ellipsis}.motion-button:disabled{opacity:.45}}
 @media(max-width:359px){.journey-label{max-width:78px}}
 @media print{.chapter-heading,.hero-title{opacity:1!important;transform:none!important}}
+
+.dawn-title{color:var(--ink)}.chapter-dawn .scene-kicker{color:var(--ink)}.hero-caption{text-shadow:0 2px 10px #041520cc}.colophon-links a{display:inline-flex;align-items:center;min-height:32px}
+@media(max-width:600px){.layer-bg{inset:-3% -4%;width:108%}.scene-art .layer-bg img{object-position:75% center}.hero-caption{top:54%}.arrival-bg{inset:-4% -4%;width:108%;transform-origin:70% 58%}.dawn-bg{inset:-4% -4%;width:108%}.chapter-dawn .scene-art .layer-bg img{object-position:center}.still .hero-caption{top:51%}.still .hero-title{top:17%}}
+.scene-shade{z-index:6}.hero-title{z-index:7}.hero-caption{z-index:8}.scene:after{z-index:8}

@@ -76,3 +76,55 @@ The train, receiver, ticket, dome, telescope, mountains, stars and fir silhouett
 ## Fonts
 
 Manrope (variable) and Noto Serif Display (bold/italic) are self-hosted. Noto is subset to Latin/Cyrillic/punctuation without changing outlines. Full font notices are included in `public/fonts/`.
+
+## Portrait editions for phones
+
+All three landscape reference artworks belong to this project and were visually inspected before recomposition. Original desktop files were preserved unchanged. New portrait pixels were generated; desktop landscapes were not stretched or cropped to make these assets.
+
+Selected PNG outputs copied non-destructively as masters. Deployed WebP files use aspect-preserving Pillow Lanczos resampling to 960px width and encoder method 6. Final quality levels 80/76/84 meet the 920000-byte combined portrait budget. No creative pixel editing after image generation.
+
+### station-midnight-mobile
+
+Deployment: `public/assets/station-midnight-mobile.webp`, 960×1706, 255084 bytes
+
+```text
+Use case: illustration-story / portrait recomposition edit.
+Asset type: original full-screen mobile scrollytelling scene for the premium story «Последний сигнал». A genuinely tall 9:16 portrait canvas, designed for a narrow 390×844 phone display.
+Input image: the supplied midnight station artwork is the exact visual-world, palette, print technique, and architectural reference. Recompose this scene as a NEW portrait illustration. Do not squeeze, stretch or crop the landscape.
+Primary request: a lonely empty midnight railway station in an alpine pine valley. Spacious, almost uninterrupted dark midnight-blue sky across the upper half; subtle tactile grain and only a few restrained thin cloud wisps. A beautiful pale ivory and ice-blue full moon floats around 40% canvas height, center-left. Mountain ridges start beneath the moon around the lower 50–60% and recede in carved icy blue layers. A very small empty timber station canopy and a few amber lamps sit at the low left around 74–84% canvas height. Curving EMPTY railway tracks enter along the bottom and lead inward through the valley. A tall slender old signal at the far RIGHT edge glows warm burnt orange, its light around 60% canvas height and subtle beam reaching left. The small station, railway and signal should all fit naturally in the narrow portrait.
+Style/medium: preserve the reference's masterfully crafted detailed hand-cut woodcut, editorial risograph, and opaque gouache illustration. Crisp irregular silhouettes, tiny engraved rail and pine details, imperfect pigment coverage, fine dry paper grain and carved mountain hatching. Exact same tightly restricted midnight ink, icy blue, pale paper ivory, sparse burnt vermilion.
+Composition: vertical 9:16, edge-to-edge, truly portrait-responsive. Keep the top third calmly dark and open for website title typography added separately. The moon is modest but readable, not touching edges. Objects deliberately moved and rescaled to suit a phone, not a panorama.
+Mood: majestic quiet midnight, cold alpine stillness and small warmth.
+Constraints: no train or carriages anywhere, no people, no text, no letters, no numbers, no station signs, no logos, no watermark, no border, no UI, no photography, no 3D. Preserve the reference's sophisticated analog printed finish and scene identity.
+```
+
+### observatory-stars-mobile
+
+Deployment: `public/assets/observatory-stars-mobile.webp`, 960×1708, 393376 bytes
+
+```text
+Use case: illustration-story / portrait recomposition edit.
+Asset type: original full-screen mobile scrollytelling scene for «Последний сигнал». Tall 9:16 portrait canvas deliberately composed for a narrow 390×844 phone display.
+Input image: the supplied starry observatory artwork is the exact visual-world, palette, print technique, and architecture reference. Recompose this scene as a NEW portrait illustration. Do not squeeze, stretch or crop the landscape.
+Primary request: an immense midnight star field occupying the entire UPPER HALF, with many finely engraved pale ivory stars, a few beautiful larger hand-cut four-point stars, and a delicately stippled diagonal Milky Way. No moon. Below the huge sky, layered alpine mountain ridges in icy blue haze descend into a deep pine valley. A SMALL old stone observatory matching the reference architecture sits on the RIGHT side around 58% canvas height, its pale dome slit and a couple of narrow windows glowing muted burnt orange. The observatory must feel small against the cosmic sky. A winding snowy rocky path starts in the LOWER CENTER foreground and climbs toward the observatory, readable as a sweeping S curve within the narrow portrait. Tall dark pines and detailed rocks anchor the bottom and low edges.
+Style/medium: exactly preserve the reference's masterfully crafted detailed hand-cut woodcut, editorial risograph, and opaque gouache illustration. Crisp irregular silhouettes, many finely carved mountain and pine marks, imperfect ink coverage, tiny dry paper grain and stippled star textures. Exact same tightly restricted midnight ink, icy blue, pale paper ivory, very sparse burnt vermilion.
+Composition: vertical 9:16, edge-to-edge. Generous vast sky across upper 50–55%, observatory small on the right around 58%, path lower center, atmospheric mountain and pine layers. Re-stage every element so its scale and location suit a tall phone scene.
+Mood: sublime isolated wilderness, patient stars and a small warm light.
+Constraints: no people, no trains, no railway, no signal, no moon, no text, no letters, no numbers, no signs, no logos, no watermarks, no borders, no UI, no photography, no 3D. Preserve the reference's sophisticated analog printed finish and world identity.
+```
+
+### horizon-dawn-mobile
+
+Deployment: `public/assets/horizon-dawn-mobile.webp`, 960×1706, 270290 bytes
+
+```text
+Use case: illustration-story / portrait recomposition edit.
+Asset type: original full-screen mobile finale for «Последний сигнал». Tall 9:16 portrait illustration deliberately composed for a narrow 390×844 phone display.
+Input image: the supplied alpine-sea dawn illustration is the exact visual-world, palette, print technique, and observatory architecture reference. Recompose this scene as a NEW portrait illustration. Do not squeeze, stretch or crop the landscape.
+Primary request: immense quiet dawn where alpine mountain ridges descend toward a still distant inland sea. The UPPER HALF is spacious luminous pale-paper and gentle peach sky with fine dry pigment grain and a few subtle warm wisps of clouds, largely open. A modest ivory sun sits just above the sea horizon, around 60% canvas height, slightly right of center, casting a beautiful narrow pale gold and peach reflection down the quiet water. Layered blue mountain and coastal ridges frame the middle and descend toward the sea. A very SMALL old stone astronomical observatory matching the reference's dome architecture sits on a pine-topped hill at LOWER LEFT around 73–78% canvas height. Dark fir silhouettes and rocky foreground anchor the bottom; a feeling of vast depth and tender dawn within a portrait frame.
+Style/medium: exactly preserve the reference's masterfully crafted detailed hand-cut woodcut, editorial risograph, and opaque gouache illustration. Crisp irregular silhouettes, fine carved mountain hatching, beautifully stippled clouds, imperfect printed pigment coverage, tactile warm-paper grain. The reference's restricted midnight ink, icy blue, pale paper ivory, with burnt vermilion softened to peach. No synthetic gradients.
+Composition: vertical 9:16, edge-to-edge. Truly re-stage for mobile: sky dominates upper half, sea and sun around 60%, tiny observatory lower-left and forest at the bottom. Calm uncluttered pale sky retains room for website text added separately. Maintain atmospheric mountain layers and quiet water depth.
+Mood: serene emotional release, hopeful first sunlight after the long night.
+Constraints: no people, no trains, no tracks, no signal, no stars, no moon, no text, no letters, no numbers, no signs, no logos, no watermarks, no borders, no UI, no photography, no 3D. Preserve the reference's sophisticated analog printed finish and world identity.
+```
+
