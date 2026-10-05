@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Disallow: /last-signal/qa.html
+Sitemap: https://isefdk.github.io/last-signal/sitemap.xml
