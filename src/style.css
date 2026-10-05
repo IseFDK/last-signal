@@ -32,3 +32,5 @@ html{scrollbar-gutter:stable}.chapter-menu{overscroll-behavior:contain}
 @media(max-width:600px){.arrival-bg img{object-position:75% center}}
 
 .chapter-window .chapter-heading{mix-blend-mode:difference}
+@media(max-width:600px){.chapter-copy:before{mask-image:linear-gradient(to bottom,#000 0 80%,transparent 90%)}}
+.link-arrow{display:inline-block;width:14px;height:14px;vertical-align:-.14em;flex-shrink:0;margin-left:3px;pointer-events:none}
