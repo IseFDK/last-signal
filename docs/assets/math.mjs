@@ -8,7 +8,7 @@ export function sceneState(p, type){
  p=clamp(p);
  switch(type){
  case 'departure':return {trainX:lerp(34,-95,ease(range(p,.18,.95))),titleY:lerp(0,-32,p),moonY:lerp(0,-11,p),fogX:lerp(0,-12,p)};
- case 'window':return {worldX:lerp(8,-30,p),nearX:lerp(0,-65,p),moonX:lerp(0,-8,p)};
+ case 'window':return {worldX:lerp(8,-12,p),nearX:lerp(0,-28,p),moonX:lerp(0,-8,p)};
  case 'tunnel':return {scale:lerp(.5,8,ease(p)),light:range(p,.55,.95),wave:range(p,.12,.78),aperture:lerp(7,155,ease(range(p,.64,1)))};
  case 'arrival':return {zoom:lerp(1.03,1.25,p),foregroundY:lerp(0,18,p),stars:1-range(p,.4,.95)};
  case 'receiver':return {dial:lerp(-65,48,ease(range(p,.1,.7))),wave:range(p,.15,.78),glow:range(p,.45,.85)};

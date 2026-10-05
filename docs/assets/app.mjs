@@ -1,4 +1,4 @@
-import {clamp,lerp,range,ease,progressFor,sceneState,beatOpacity} from './math.mjs?v=b5ac3f5dbd68';
+import {clamp,lerp,range,ease,progressFor,sceneState,beatOpacity} from './math.mjs?v=8b28a8c9dca0';
 const root=document.documentElement,body=document.body;
 const menu=document.querySelector('#chapter-menu'),openMenu=document.querySelector('.menu-button'),closeMenu=document.querySelector('.close-menu');
 let menuOpener=null;
@@ -27,7 +27,7 @@ if(chapters.length){
  function measure(){metrics=chapters.map(el=>({top:el.getBoundingClientRect().top+scrollY,height:el.offsetHeight}));schedule()}
 
  function applyScene(item,p){const {el,heading,caption,beats,nodes:n,wave}=item,type=el.dataset.scene,state=sceneState(p,type);
-  el.dataset.progress=p.toFixed(3);
+  el.dataset.progress=p.toFixed(3);el.style.setProperty('--copy-shade',String(ease(range(p,.12,.23))));
   const headingFade=1-ease(range(p,.1,.29));css(heading,'opacity',headingFade);transform(heading,`translateY(${-p*75}px) scale(${lerp(1,.97,p)})`);css(caption,'opacity',1-ease(range(p,.08,.2)));if(caption){const hidden=p>=.2;caption.inert=hidden;caption.style.visibility=hidden?'hidden':'visible'}
   // Every paragraph remains in document order; only the visual beat follows scroll.
   beats.forEach((beat,j)=>{const opacity=beatOpacity(p,j);css(beat,'opacity',opacity);transform(beat,`translateY(${(1-opacity)*16}px)`);beat.classList.toggle('current',opacity>.7)});
